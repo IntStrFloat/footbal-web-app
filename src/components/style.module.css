@@ -1,0 +1,52 @@
+.nav_bar {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  
+  /* Добавляем ограничение максимальной ширины для панели навигации на узких экранах */
+
+  flex-wrap: wrap; /* Переносим элементы списка на новую строку при необходимости */
+}
+
+.nav_item {
+  color: #11203F;
+  text-align: center;
+  font-family: 'NeueMachina';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  cursor: pointer;
+  margin-right: 64px; /* Изначальный отступ между элементами */
+}
+.nav_item Link {
+  text-decoration: none;
+}
+
+.nav_separator {
+  width: 4px;
+  height: 23px;
+  background: #11203F;
+  margin-right: 64px; /* Изначальный отступ между сепараторами */
+}
+
+@media (max-width: 768px) {
+  .nav_item {
+    margin-right: 12px; /* Новый отступ для элементов на узких экранах */
+  }
+
+  .nav_separator {
+    margin-right: 12px; /* Новый отступ для сепараторов на узких экранах */
+  }
+}

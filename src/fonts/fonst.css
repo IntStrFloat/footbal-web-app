@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('./PPNeueMachina-Ultrabold.otf') format('opentype');
+
+    /* Добавьте дополнительные форматы шрифта, если есть */
+  }
+@font-face {
+  font-family: 'NeueMachina1';
+  src: url('./PPNeueMachina-Light.otf') format('opentype');
+}

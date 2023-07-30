@@ -1,0 +1,5 @@
+html,body {
+    background: url('../../assets/backCalendar.png');
+    background-size: cover;
+    background-attachment: fixed;
+  }

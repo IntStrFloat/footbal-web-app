@@ -1,0 +1,114 @@
+html,body {
+    background: url('../../assets/contacts-back.png');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 183px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: #11203F;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "NeueMachina";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.88px;
+  }
+  
+  .contact_data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    justify-content: space-between;
+    margin-top: 250px;
+  }
+  
+  .contact {
+    display: flex; /* Добавьте flex для контейнера контакта */
+    flex-direction: row; /* Устанавливаем направление элементов в столбец */
+    align-items: center; /* Центрируем элементы контакта по горизонтали */
+    width: 95px;
+    margin: 0 20px; /* Уменьшите отступы для контактов */
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+
+  }
+  
+  .contact h2 {
+    margin-top: 0;
+    color: #11203F;
+    font-family: "NeueMachina";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.62px;
+    margin-bottom: 10px; /* Добавим отступ между заголовком и изображениями */
+  }
+  
+  .contact_links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_links img {
+    margin-right: 9px ;
+    margin-left: 9px;
+  }
+  .logo {
+    margin-top: 590px;
+  }
+  .contact_links2 img {
+    margin-top: 15px;
+    margin-right: 35px ;
+    margin-left: 35px;
+    margin-bottom: 400px;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    .contact {
+      margin: 5px;
+    }
+  
+    .contact_links img {
+      margin: 3px;
+      width: 24px;
+      height: 24px;
+    }
+  
+    .logo {
+      width: 180px;
+      height: 135px;
+    }
+  
+    .contact_links2 img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  @media screen and (max-width:1300px){
+    .contact_data {
+      width: 50vh;
+    }
+  }
+  @media screen and (max-width:510px){
+    .contact_data {
+      width: 10vh;
+    }
+  }
