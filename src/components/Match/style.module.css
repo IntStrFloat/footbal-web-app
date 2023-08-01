@@ -18,10 +18,12 @@
   
   .match_info h2 {
     color: rgba(17, 32, 63, 1); /* Задаем прозрачность 1 для .match_info h2 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
     background: #60FFEC;
-    width: 376px;
+    width: 355px;
     height: 72px;
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +65,7 @@
   
   .left_data {
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
   }
@@ -76,6 +79,7 @@
     margin: 5px 0;
     width: 181px;
     height: 40px;
+    text-decoration: none;
     flex-shrink: 0;
     background: #60FFEC;
     color: #11203F;
@@ -93,6 +97,7 @@
     width: 181px;
     height: 40px;
     flex-shrink: 0;
+    text-decoration: none;
     background: #60FFEC;
     color: #11203F;
     text-align: center;

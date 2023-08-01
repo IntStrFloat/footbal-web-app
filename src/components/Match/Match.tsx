@@ -1,6 +1,11 @@
 import style from './style.module.css'
+interface Props {
+    leftData :string[];
+    rightData :string[];
+}
 
-export const Match = () => {
+
+export const Match = (children :Props) => {
     return (
         <div className={style.container}>
                 
@@ -8,19 +13,13 @@ export const Match = () => {
                     <h2>1 РАУНД ВЕРХНЯЯ СЕТКА</h2>
                     <div className={style.data}>
                         <div className={style.left_data}>
-                            <a href="#">тест</a>
-                            <a href="#">тест</a>
-                            <a href="#">тест</a>
+                            {children.leftData.map((elem,index)=>{return <a  href='#'> {elem}</a>;})}
                         </div>
                         <div className={style.main_set}>
-                            ЛОГО
-                            СЧЕТ
-                            ЛОГО
+                            00:00
                         </div>
                         <div className={style.right_data}>
-                            <a href="#">тест</a>
-                            <a href="#">тест</a>
-                            <a href="#">тест</a>
+                            {children.rightData.map((elem,index)=>{return <a  href='#'> {elem}</a>;})}
                         </div>
                     </div>
                     <a href="#">ПОДРОБНЕЕ</a>

@@ -19,6 +19,17 @@
 }
 
 .nav_item {
+  
+}
+
+.nav_separator {
+  width: 4px;
+  height: 23px;
+  background: #11203F;
+  margin-right: 64px; /* Изначальный отступ между сепараторами */
+}
+.no_link_style {
+  text-decoration: none;
   color: #11203F;
   text-align: center;
   font-family: 'NeueMachina';
@@ -30,17 +41,6 @@
   cursor: pointer;
   margin-right: 64px; /* Изначальный отступ между элементами */
 }
-.nav_item Link {
-  text-decoration: none;
-}
-
-.nav_separator {
-  width: 4px;
-  height: 23px;
-  background: #11203F;
-  margin-right: 64px; /* Изначальный отступ между сепараторами */
-}
-
 @media (max-width: 768px) {
   .nav_item {
     margin-right: 12px; /* Новый отступ для элементов на узких экранах */

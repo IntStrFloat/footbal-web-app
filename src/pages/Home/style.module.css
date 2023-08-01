@@ -1,0 +1,98 @@
+
+.css_selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186.2vh;
+    height: 100vh;
+    background-image: linear-gradient(to right, #0084ff, #a200ff);
+    background-size: 200% 100%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    box-shadow: 0px -3px 19px 0px #000 inset;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.mainLogo {
+    width: 80%;
+    height: 80%;
+}
+.container {
+    background: #11203F;
+}
+.second_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 186.2vh;
+    height: 5876px;
+}
+.second_section p {
+    width: 1204px;
+    height: 154px;
+    color: #60FFEC;
+    font-family: NeueMachina;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+.head{
+    display: flex;
+    width: 1500px;
+    justify-content: flex-start;
+    margin-top: 215px;
+    margin-bottom: 60px;
+}
+.head h2 {
+    color: #60FFEC;
+    margin-right: 106px;
+}
+.photos{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    height: 723px;
+    margin-top: 142px;
+}
+.item_left {
+    background: url(../../assets/grad.png);
+    width: 692px;
+    border-radius: 50px;
+    height: 723px;
+}
+.item_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item {
+    width: 488.571px;
+    height: 352.747px;
+    border-radius: 50px;
+    background: url(../../assets/grad1.png);
+}
+.com_cards {
+    margin-top: 194px;
+    display: flex;
+    margin-left: 204px;
+    height: 794px;
+    align-self: flex-start;
+    margin-right: 0px;
+}

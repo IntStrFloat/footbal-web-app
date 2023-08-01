@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid bisque;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data h1 {
+    color: #60FFEC;
+    font-family: NeueMachina;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 4.32px;
+    position: relative; /* Добавлено */
+    z-index: 1; /* Добавлено */
+}
+
+.header1 {
+    position: relative;
+}
+
+.header1 svg {
+    position: absolute;
+    top: 0;
+    
+    left: 0;
+    z-index: 0; /* Добавлено */
+    opacity: 0.5;
+}
+.header1 h1 {
+    line-height: 1.2;
+    margin-left: 40px;
+}
