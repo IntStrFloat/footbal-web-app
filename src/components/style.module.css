@@ -1,6 +1,7 @@
 .nav_bar {
   display: flex;
-  margin-top: 40px;
+  
+  padding-top: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -18,19 +19,15 @@
   flex-wrap: wrap; /* Переносим элементы списка на новую строку при необходимости */
 }
 
-.nav_item {
-  
-}
-
 .nav_separator {
   width: 4px;
   height: 23px;
-  background: #11203F;
+  background: #60FFEC;
   margin-right: 64px; /* Изначальный отступ между сепараторами */
 }
 .no_link_style {
   text-decoration: none;
-  color: #11203F;
+  color: #60FFEC;
   text-align: center;
   font-family: 'NeueMachina';
   font-size: 16px;

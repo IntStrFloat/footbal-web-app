@@ -1,18 +1,23 @@
 import style from './style.module.css'
 import TGLOGO from '../../assets/TGLOGO.png'
-interface Props {
+interface FootballPlayer {
     id: number;
-    elements: string;
-}
-export const Card = (children : Props) => {
+    logo: string;
+    comandName: string;
+  }
+  
+  interface FootballPlayerCardProps {
+    player: FootballPlayer;
+  }
+export const Card: React.FC<FootballPlayerCardProps> = ({player}) => {
     return (
         <>
-            {children.id === 1 ? 
+            {player.id === 1 ? 
             <div className={style.active}>
                 <div className={style.container}>
                     <div className={style.dat}>
                         <p className={style.p}>
-                            0{children.id}.
+                            0{player.id}.
                         </p>
                         <div className={style.separator}></div>
                     </div>
@@ -21,7 +26,7 @@ export const Card = (children : Props) => {
                     </div>
                     <div className={style.data}>
                         <h2>
-                            {children.elements}
+                            {player.comandName}
                         </h2>
                         <a href='#'>ПОДРОБНЕЕ</a>
                     </div>
@@ -32,7 +37,7 @@ export const Card = (children : Props) => {
                     <div className={style.container}>
                         <div className={style.dat}>
                             <p className={style.p}>
-                                0{children.id}.
+                                0{player.id}.
                             </p>
                             <div className={style.separator}></div>
                         </div>
@@ -41,7 +46,7 @@ export const Card = (children : Props) => {
                         </div>
                         <div className={style.data}>
                             <h2>
-                                {children.elements}
+                                {player.comandName}
                             </h2>
                             <a href='#'>ПОДРОБНЕЕ</a>
                         </div>

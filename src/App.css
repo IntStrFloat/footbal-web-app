@@ -1,0 +1,27 @@
+.page- {
+    background-image: linear-gradient(to right, #0084ff, #a200ff);
+    background-size: 200% 100%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    box-shadow: 0px -3px 19px 0px #000 inset;
+  }
+  
+  .page-calendar {
+    background-image: linear-gradient(to right, #0084ff, #a200ff);
+    background-size: 200% 100%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    box-shadow: 0px -3px 19px 0px #000 inset;
+  }
+  
+  .page-contacts {
+    background: url('../assets/contacts-back.png');
+  }
+  
+  .page-stats {
+    background: url('./assets/statsBackground.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

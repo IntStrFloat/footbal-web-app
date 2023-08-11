@@ -1,0 +1,41 @@
+.double-elimination-bracket {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .team {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .winner {
+    background-color: #aaffaa;
+  }
+  
+  .bracket {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .winner-bracket,
+  .loser-bracket {
+    flex: 1;
+    width: 650px; /* Ширина верхней и нижней сетки */
+    margin-right: 10px;
+  }
+  
+  .loser-bracket {
+    margin-right: 0;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
