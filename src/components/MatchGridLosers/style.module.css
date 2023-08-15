@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+.container p {
+    color: #60FFEC;
+    text-align: center;
+    font-family: NeueMachina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+.pe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260.423px;
+    height: 35.951px;
+    border-radius: 8px;
+    margin-bottom: 9px;
+    background-color: rgb(96, 255, 236,0.3);
+}
+.mini_match_container{
+    margin-bottom: 9px;
+}
+.mini_match_container2{
+    margin-top: 43px;
+}
+.mini_match_container3{
+    margin-top: 43px;
+}

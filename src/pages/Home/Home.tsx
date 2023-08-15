@@ -1,9 +1,31 @@
 import style from './style.module.css'
 import mainLogo from '../../assets/mainLogo.png'
 import { Card } from '../../components/ComandCard/Card';
-import Carousel from '../../components/FootballPlayerCards/CenteredFootballPlayerCards';
+import { MongoClient,ObjectId } from 'mongodb';
 import YouTube from 'react-youtube';
+import axios from 'axios';
+interface Comand {
+    _id: number;
+    name: string;
+    players: [string];
+    goals: number;
+    logo:string;
+    __v: number;
+  }
+import React,{useState, useEffect} from 'react'
 function Home () {
+    const [comands, setComands] = useState<Comand[]>([]);
+    useEffect ( () => {
+         axios.get('http://localhost:5000/api/commands')
+          .then(response => {
+            console.log(response.data)
+            setComands(response.data);
+            console.log(comands)
+          })
+          .catch(error => {
+            console.error('Error fetching players:', error);
+          });
+      }, []);
     const id = 1;
     const id2 = 2;
     const elem = 'RED MOSCOW'
@@ -131,10 +153,8 @@ function Home () {
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
                     </p>
                     <div className={style.com_cards}>
-                        <Card player={players[0]}/>
-                        <Card player={players[1]}/>
-                        <Card player={players[2]}/>
-                        <Card player={players[3]}/>
+                        {comands.slice(0, 4).map((elem,index)=> {return <Card player = {elem}/>})}
+                        
                     </div>
                     
                 </div>

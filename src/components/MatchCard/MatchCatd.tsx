@@ -1,5 +1,5 @@
 import style from './style.module.css'
-import commandLogo from '../../assets/commandLogo.png'
+import commandLogo from '../../assets/commandLogo2.svg'
 export const MatchCard = ()=> {
     const time = '12:00'
     const date = '24.09'

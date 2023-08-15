@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    height: 384px;
+}
+.container p {
+    
+    color: #60FFEC;
+    text-align: center;
+    font-family: NeueMachina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.pe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260.423px;
+    height: 35.951px;
+    border-radius: 8px;
+    background-color: rgb(96, 255, 236,0.3);
+}
+.first_matches {
+    margin-top: 10px;
+}
+.second_round {
+    margin-left: 35px;
+}
+.second_matches {
+    
+    margin-top: 51px;
+}
+.mini_match_container {
+    margin-bottom: 105px; /* Указывайте желаемый отступ вниз между контейнерами */
+}
+.first_matches1 {
+    margin-bottom: 18px;
+}
+.mini_match_container1 {
+    margin-bottom: 9px;
+}
+.three_round {
+    margin-left: 330px;
+}
+.three_matches {
+    margin-top: 141px;
+    margin-bottom: 175px;
+}
+.mini_match_container2 {
+    margin-bottom: 84px;
+}
+.contact123 {
+    display: flex;
+}
+.four_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 591px;
+}
+.finish{
+    display: flex;
+}

@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin-top: 24px;
 }
 .fist_section {
     display: flex;
@@ -17,7 +18,7 @@
     height: 23px;
     width: 198px;
     border-radius: 0px 0px 8px 8px;
-    margin-bottom: 1000px;
+    
     background: #11203F;
 }
 .second_section p {
@@ -50,4 +51,14 @@
     font-weight: 900;
     line-height: normal;
     letter-spacing: 0.45px;
+}
+.versus h3 {
+    color: #11203F;
+    text-align: center;
+    font-family: NeueMachina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.72px;
 }

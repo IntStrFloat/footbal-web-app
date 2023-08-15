@@ -56,7 +56,14 @@
     margin-bottom: 35%;
     width: 182px;
     height: 182px;
-    background: url('../../assets/elipse.png');
+    border-radius: 50%;
+    border: 3px solid #60FFEC;
+    overflow: hidden; /* Чтобы обрезать лишнее содержимое за пределами круга */
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Сохраняет пропорции и обрезает изображение, чтобы оно полностью заполнило контейнер */
 }
 .noactive {
     border-radius: 0px 0px 0px 0px;

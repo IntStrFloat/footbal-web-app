@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260.423px;
+    height: 338.462px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgb(96, 255, 236,0.3);
+}
+.container h3 {
+    color: #60FFEC;
+    text-align: center;
+    font-family: NeueMachina;
+    font-size: 14.03px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.631px;
+    margin-top: 25px;
+    margin-bottom: -25px;
+}
+.container2 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}

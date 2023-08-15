@@ -4,11 +4,35 @@ import Contacts from './pages/Contacts/Contacts';
 import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home/Home';
 import Calendar from './pages/Calendar/Calendar';
-import Statistik from './pages/Statistik/Statistik';
 import {useState,useEffect} from 'react'
 import { useLocation } from 'react-router-dom';
-import Background from './components/Background/Background';
 import Table from './pages/Table/Table';
+
+import { MongoClient } from 'mongodb';
+
+export type Comand ={
+  name: String,
+  players: [String],
+  goals: Number,
+}
+export type Match = {
+  matchNumber: Number,
+  teams: [String],
+  players: {
+    type: Map<String,String[]>,
+    of: [String],
+  },
+  teamScores: {
+    type: Map<String,Number>,
+    of: Number,
+  },
+}
+export type Player = {
+  name: String,
+  goals: Number,
+  red: Number,
+  yellow: Number,
+}
 function App() {
   const location = useLocation();
 

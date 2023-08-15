@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    width: 272px;
+    height: 75px;
+    border: none;
+
+}
+.container p {
+    color: #60FFEC;
+    text-align: center;
+    font-family: NeueMachina;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.54px;
+}
+.first_command {
+    background-color: rgba(96, 255, 236, 0.3); /* Прозрачный белый фон */
+    border-radius: 8px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 37px;
+    border: 1px solid #60FFEC;
+    border-left: none;
+    border-top: none;
+}
+.second_command {
+    background-color: rgba(96, 255, 236, 0.3); /* Прозрачный белый фон */
+    border-radius: 0px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #60FFEC;
+    width: 171px;
+    height: 37px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.sep1{
+    background-color: rgba(96, 255, 236, 0.3); /* Прозрачный белый фон */
+    border: 1px solid #60FFEC;
+    
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    width: 88px;
+    height: 37px;
+    
+}
+.sep2{
+    background-color: rgba(96, 255, 236, 0.3); /* Прозрачный белый фон */
+    border: 1px solid #60FFEC;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 0px 8px 8px 0px;
+    width: 88px;
+    height: 37px;
+}
+.yt_block{
+    display: flex;
+    border-radius: 8px;
+    background: #60FFEC;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 75px;
+
+    margin-left: -33px; /* Добавляем сдвиг налево */
+}
+.yt_logo{
+    fill: #11203F;
+    width: 10.522px;
+    height: 7.015px;
+}
+.mini_sep{
+    display: flex;
+    align-self: center;
+    width: 13px;
+    height: 8px;
+    margin-left: -1px;
+    flex-shrink: 0;
+}
